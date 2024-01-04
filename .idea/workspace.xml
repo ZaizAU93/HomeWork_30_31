@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36f22c8-3fa0-4df0-be41-4dcc3a9aa31a" name="Changes" comment="sz">
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductA1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductA2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductB1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductB2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/EnglishDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/RussianDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/RussianToEnglishAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/AirplaneBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/HotDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/HotDogWithBeef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/SausageReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/hotDogWithPorkSausage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Cars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/CarsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Pickup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PickupFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Sedan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SedanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/TruckFactory.java" afterDir="false" />
+    <list default="true" id="f36f22c8-3fa0-4df0-be41-4dcc3a9aa31a" name="Changes" comment="1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +47,7 @@
       <workItem from="1704021992365" duration="18890000" />
       <workItem from="1704294281490" duration="4853000" />
       <workItem from="1704304294866" duration="612000" />
-      <workItem from="1704349023212" duration="1226000" />
+      <workItem from="1704349023212" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="sz">
       <created>1704190096281</created>
@@ -84,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704190096281</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.1">
+      <created>1704360360904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704360360904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sz" />
-    <option name="LAST_COMMIT_MESSAGE" value="sz" />
+    <MESSAGE value="1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1" />
   </component>
 </project>
