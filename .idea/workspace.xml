@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f36f22c8-3fa0-4df0-be41-4dcc3a9aa31a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW_30.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteFactory1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Action.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/Logging.java" afterDir="false" />
+    <list default="true" id="f36f22c8-3fa0-4df0-be41-4dcc3a9aa31a" name="Changes" comment="sz">
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductB1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AbstractFactory/ConcreteProductB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/EnglishDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/RussianDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/RussianToEnglishAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/AirplaneBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/HotDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/HotDogWithBeef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/SausageReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/hotDogWithPorkSausage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Ingredient_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Cars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/CarsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Pickup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/PickupFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Sedan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/SedanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FactoryMethod/TruckFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,13 +57,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,8 +72,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1704021990096</updated>
-      <workItem from="1704021992365" duration="5395000" />
+      <workItem from="1704021992365" duration="18890000" />
+      <workItem from="1704294281490" duration="4853000" />
+      <workItem from="1704304294866" duration="612000" />
+      <workItem from="1704349023212" duration="1226000" />
     </task>
+    <task id="LOCAL-00001" summary="sz">
+      <created>1704190096281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704190096281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +100,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sz" />
+    <option name="LAST_COMMIT_MESSAGE" value="sz" />
   </component>
 </project>
